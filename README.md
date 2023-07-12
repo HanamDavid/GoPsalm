@@ -12,14 +12,14 @@ biblical verses but you can remove them or add new ones to make it just for you
 
 ![Example](Images/Example.png) 
 
-# Important
+# :warning: Important
 
 Before installing go psalm make sure to install git, zsh and lipgloss
 
-zsh:
++ zsh:
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
-lipgloss:
++ lipgloss:
 https://github.com/charmbracelet/lipgloss
 
 If you have p10k go to home and then to .p10k.zsh
@@ -34,31 +34,48 @@ to quiet
 
 To install GoPsalm
 
-1.git clone the repository
++ git clone the repository
 
 ```
 git clone https://github.com/HanamDavid/GoPsalm.git
 ```
-2. cd into the GoPsalm
++ cd into the GoPsalm
 ```
 cd GoPsalm
 ```
-3.make install.sh executable with chmod +x install.sh 
++ make install.sh executable with chmod +x install.sh 
 
 ```
 chmod +x install.sh
 ```
 
-4.make any changes to the code that you want
++ make any changes to the code that you want
 
-5.Execute install.sh, put your password when it ask you for it  
++ Execute install.sh, put your password when it ask you for it  
 (If you want to make sure everything is fine look at the code of install.sh) 
 and enjoy it!
 ```
 ./install.sh
 ```
+# Configuration
+
++ ** Colours and Display  ** 
+to configure how the text is going to display 
+go to gopsalm.go and to line 14 to 31 you can make any changes
+to how the text is going to display(go to lipgloss git hub for more info)
+on your shell, to update it  when you end the configuration re 
+run install.sh and your shell 
++ ** Text **
+
+If you want to add more text or remove some of them go to ~/.config/gopsalm/Display/ 
+Here you can add any new phrase or versicle writing a new markdown file 
+and saving it, alternatively you can go to line 42 in gopsalm.go and 
+change the directory where gopsalm gets its text and then change as 
+well the path on the installer install.sh
 
 # License
+
+# The MIT License (MIT)
 
 Copyright © 2023 <copyright holders>
 
