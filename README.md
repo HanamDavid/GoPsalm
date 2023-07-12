@@ -1,5 +1,5 @@
-# Gopsalm
 ![Icon Made by Dall e 2 just because](Images/gopher.png)
+*A Biblical Cli displayer*
 ![Static Badge](https://img.shields.io/badge/Golang-made)
 ![Static Badge](https://img.shields.io/badge/Golang-made)
 ![Static Badge](https://img.shields.io/badge/Lipgloss-Charm-MIT)
@@ -39,7 +39,7 @@ To install GoPsalm
 ```
 git clone https://github.com/HanamDavid/GoPsalm.git
 ```
-+ cd into the GoPsalm
++ cd into GoPsalm
 ```
 cd GoPsalm
 ```
@@ -59,13 +59,13 @@ and enjoy it!
 ```
 # Configuration
 
-+ ** Colours and Display  ** 
++ **Colours and Display** 
 to configure how the text is going to display 
 go to gopsalm.go and to line 14 to 31 you can make any changes
 to how the text is going to display(go to lipgloss git hub for more info)
 on your shell, to update it  when you end the configuration re 
 run install.sh and your shell 
-+ ** Text **
++ **Text**
 
 If you want to add more text or remove some of them go to ~/.config/gopsalm/Display/ 
 Here you can add any new phrase or versicle writing a new markdown file 
@@ -75,7 +75,7 @@ well the path on the installer install.sh
 
 # License
 
-# The MIT License (MIT)
+*The MIT License (MIT)*
 
 Copyright © 2023 <copyright holders>
 
