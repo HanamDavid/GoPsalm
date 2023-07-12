@@ -27,8 +27,7 @@ elif [ "$choice" = "2" ]; then
 
     echo "English selected"
     echo "Thanks, now I am going to install everything for u"
-    echo "De momento instalaremos en spanish xd"
-    cp -r DisplayEs "$configDirectory/Display"
+    cp -r DisplayEn "$configDirectory/Display"
 else
     echo "Invalid choice, going with default (English)"
     echo "Thanks, now I am going to install everything for u"
