@@ -1,12 +1,12 @@
 # Gopsalm
 
-![Icon Made by Dall e 2 just because](../GoPsalm/Images/gopher.png)
+![Icon Made by Dall e 2 just because](../Images/gopher.png)
 
 Gopsalm is a Cli program made to display random text with lipgloss(charm group) 
 everytime you write gopsalm (get some colour) or you open your terminal, it has a focus on
 biblical verses but you can remove them or add new ones to make it just for you
 
-![Example](../GoPsalm/Images/Example.png) 
+![Example](../Images/Example.png) 
 
 # Important
 
@@ -50,3 +50,6 @@ chmod +x install.sh
 5.Execute install.sh, put your password when it ask you for it  
 (If you want to make sure everything is fine look at the code of install.sh) 
 and enjoy it!
+```
+./install.sh
+```
