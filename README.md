@@ -1,6 +1,7 @@
 ![Icon Made by Dall e 2 just because](Images/gopher.png)
+
+
 *A Biblical Cli displayer*
-![Static Badge](https://img.shields.io/badge/Golang-made)
 ![Static Badge](https://img.shields.io/badge/Golang-made)
 ![Static Badge](https://img.shields.io/badge/Lipgloss-Charm-MIT)
 ![Static Badge](https://img.shields.io/badge/MIT-uwu)
@@ -22,7 +23,7 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 + lipgloss:
 https://github.com/charmbracelet/lipgloss
 
-If you have p10k go to home and then to .p10k.zsh
++ If you have p10k go to home and then to .p10k.zsh
 and make sure to put typeset -g POWERLEVEL9K_INSTANT_PROMPT
 to quiet
 
@@ -59,14 +60,13 @@ and enjoy it!
 ```
 # Configuration
 
-+ **Colours and Display** 
++ **Colours and Display:** 
 to configure how the text is going to display 
 go to gopsalm.go and to line 14 to 31 you can make any changes
 to how the text is going to display(go to lipgloss git hub for more info)
 on your shell, to update it  when you end the configuration re 
 run install.sh and your shell 
-+ **Text**
-
++ **Text:**
 If you want to add more text or remove some of them go to ~/.config/gopsalm/Display/ 
 Here you can add any new phrase or versicle writing a new markdown file 
 and saving it, alternatively you can go to line 42 in gopsalm.go and 
